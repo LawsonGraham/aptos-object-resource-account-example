@@ -7,7 +7,6 @@ module package_test::package_test {
     const ERR_UNAUTHORIZED: u64 = 1;
 
     struct ResourceAccountObjectStore has key, store {
-        // resource_object: Object<ResourceAccountObject>
         resource_object: address
     }
 
